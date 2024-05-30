@@ -8,13 +8,13 @@ This is an example mod of how to add a new action to the game. It adds a new con
 
 Here's a video demonstrating the action in game. When an attack action is placed in the combat timeline, a new button appears in the row of action buttons above the timeline. It is to the right of the standard wait action. When you press this button it will insert a wait that extends from the end of any run or wait action on the bottom track of the combat timeline to the end of the attack action in the top track. Once the wait is placed, the button for it is removed so that you can quickly place a run action after the wait.
 
-<video controls src="">
+<video controls src="https://github.com/echkode/PhantomBrigadeMod_WaitOnUse/assets/48565771/d971928d-981f-41df-a427-c3c004d5c08c">
   <p>Demonstrating the wait-on-use action. A run action is placed and an attack action is placed at the end of the run. The wait-on-use action button now appears and when it's clicked, a new wait action is placed that goes to the end of the attack action.</p>
 </video>
 
 In this video, a sniper moves and then waits for a target to come within range about two seconds later. That means there's a fairly large gap between the end of the run action and the start of the attack action. The wait-on-use action will span that gap and go to the end of the attack action.
 
-<video controls src="">
+<video controls src="https://github.com/echkode/PhantomBrigadeMod_WaitOnUse/assets/48565771/74253d09-71d1-42b2-bac8-490aaf28c9ef">
   <p>The wait-on-use action will span any gaps between the end of the last action on the bottom track and the start of the next action on the top track.</p>
 </video>
 
