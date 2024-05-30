@@ -1,0 +1,60 @@
+dataUI:
+  icon: s_icon_l32_action_wait
+  color:
+    r: 0.6823529
+    g: 0.53125
+    b: 0.7843137
+    a: 1
+  colorOverride:
+    r: 0.6
+    g: 0.5
+    b: 0.75
+    a: 1
+  sortingPriority: 1
+  hidden: false
+  irreversible: false
+  heating: false
+  offensive: false
+  modes: 
+dataCore:
+  locking: false
+  trackType: Primary
+  paintingType: Timing
+  heatType: DataConstant
+  durationType: Variable
+  duration: 1
+  durationUnitStat: 
+  heatChange: 0
+  secondaryDirection: false
+  eventsOnValidation: 
+  eventsOnCreation: 
+  eventsOnModification: 
+  eventsOnStart: 
+  eventsOnEnd: 
+  eventsOnDispose: 
+  functionsOnValidation:
+  - !CombatActionWaitOnUseValidate {}
+  functionsOnCreation:
+  - !CombatActionWaitOnUse {}
+  functionsOnModification: 
+  functionsOnStart: 
+  functionsOnUpdate: 
+  functionsOnEnd: 
+  functionsOnDispose: 
+  check: 
+  unitCheck: 
+dataFactionCheck: 
+dataMovement:
+  movementSpeedScalar: 1
+dataEquipment: 
+dataAI:
+  actionEndsPlanning: false
+  possibleActionTypes:
+  - aiActionType: Wait
+    weightType: DataConstant
+    weightConstant: 0
+    partSocket: 
+    statUsed: 
+dataVisualsOnStart: 
+dataCustom: 
+functionsTimed: 
