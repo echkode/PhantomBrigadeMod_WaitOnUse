@@ -2,7 +2,7 @@
 
 A library mod for [Phantom Brigade](https://braceyourselfgames.com/phantom-brigade/) to add an action to wait for an attack to finish.
 
-It is compatible with game release version **1.3**. It works with both the Steam and Epic installs of the game. All library mods are fragile and susceptible to breakage whenever a new version is released.
+It is compatible with game release version **1.3.3**. It works with both the Steam and Epic installs of the game. All library mods are fragile and susceptible to breakage whenever a new version is released.
 
 This is an example mod of how to add a new action to the game. It adds a new config file for the action and implements two function interfaces that are used in the config file. See the [technical details](#technical-details) for which ones were implemented and why after the videos.
 
